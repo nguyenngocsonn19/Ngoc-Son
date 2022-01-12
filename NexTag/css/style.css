@@ -35,13 +35,14 @@ a{
 p {
     color: #555;
 }
-.contaniner {
+.container {
     max-width: 1300px;
     margin: auto;
     padding-left: 25px ;
     padding-right: 25px;
 
 }
+
 .row {
     display: flex;
     align-items: center;
@@ -97,7 +98,7 @@ p {
 .col-3 img {
     width: 100%;
 }
-.small-contaniner{
+.small-container{
     max-width: 1080px;
     margin: auto;
     padding-left: 25px;
@@ -272,8 +273,6 @@ ul{
 select {
     border: 2px solid pink;
     padding: 5px;
-
-
 }
 select:focus {
     outline: none;
@@ -380,4 +379,164 @@ margin-bottom: 10px;
         font-size: 26px ;
         line-height: 22px;
     }
+    .cart-info p{
+        display:none ;
+
+    }
+}
+/*-------------cart item details-----------------*/
+.cart-page {
+    margin: 80px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+th{
+    text-align: left;
+    padding: 6px;
+    color: white;
+    background: #ffd6d6;
+    font-weight: normal;
+}
+td {
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    padding-left: 10px;
+    color: red;
+    font-size: 13px;
+}
+td p,small  {
+    padding-left: 10px;
+}
+id img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table {
+    border-top: 3px solid #ffd6d6 ;
+    width: 100%;
+    max-width: 400px;
+}
+td:last-child{
+    text-align:right ;
+}
+th:last-child {
+    text-align: right;
+}
+
+/*-------------Login --------------------*/
+.account-page{
+    padding: 50px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.form-container {
+    background: white;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0, 0,0.1);
+}
+
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+
+
+.form-btn{
+    display: inline-block;
+}
+.form-container form {
+    max-width: 400px;
+    padding: 0 20px;
+    position: absolute;
+    top: 70px;
+
+}
+form input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 ;
+    padding: 0 10px;
+    border: 1px solid #cccccc;
+}
+form .btn{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0 ;
+}
+form .btn:focus{
+    outline: none;
+}
+form a {
+font-size: 13px;
+
+}
+#Indicator {
+    width: 100px;
+    border: none;
+    background: greenyellow ;
+    height: 3px;
+    margin-top: 8px;
+    margin-right: 0px;
+}
+
+/*------------register------------*/
+.form-container1 form {
+    max-width: 400px;
+    padding: 0 20px;
+    position: absolute;
+    top: 70px;
+
+}
+.form-container1 span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+.form-container1{
+    background: white;
+    width: 400px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0,0, 0,0.1);
+}
+.form-container1 select {
+    border: 1px solid lightgray;
+    padding: 5px;
 }
