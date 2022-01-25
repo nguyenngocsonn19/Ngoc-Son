@@ -16,6 +16,7 @@
 .nav {
     padding: 10px 10vw;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .brand-logo{

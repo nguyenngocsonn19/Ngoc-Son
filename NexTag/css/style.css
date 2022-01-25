@@ -1,4 +1,6 @@
-*{ margin: 0;
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -308,7 +310,7 @@ ul{
 }
 
 
-/* ---mmedia --- */
+/* -- --- */
 
 @media only screen and( max-width:800px){
     nav ul {
