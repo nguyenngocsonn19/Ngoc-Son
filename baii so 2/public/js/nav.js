@@ -24,12 +24,12 @@
     </div>
 </div>
     <ul class="links-container">
-        <li class="link-item"><a href="" class="link">Home</a></li>
+        <li class="link-item"><a href="index.html" class="link">Home</a></li>
         <li class="link-item"><a href="" class="link">Products</a></li>
         <li class="link-item"><a href="" class="link">About</a></li>
         <li class="link-item"><a href="" class="link">Contact</a></li>
         <li class="link-item"><a href="" class="link">Brands</a></li>
-        <li class="link-item"><a href="" class="link">Login</a></li>
+        <li class="link-item"><a href="signup.html" class="link">Login</a></li>
     </ul>
     `;
  }
