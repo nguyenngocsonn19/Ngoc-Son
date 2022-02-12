@@ -1,3 +1,6 @@
+
+
+
 let user =JSON.parse(sessionStorage.user ||null);
 let loader = document.querySelector('.loader');
 
@@ -44,22 +47,22 @@ uploadImages.forEach((fileupload, index) =>{
         let imageUrl;
 
         if(file.type.includes('image')){
-            fetch('/s3url').then(res => res.json())
-                .then(url =>{
-                    fetch(url,{
-                        method: 'PUT',
-                        headers:  new Headers({'Content-Type': 'multipart/form-data'}),
-                        body:file
-                    })
-                        .then(res => {
-                            imageUrl = url.split("?")[0];
-                            imagePaths[index] = imageUrl;
-                            let label = document.querySelector(`label[for=${fileupload.id}]`);
-                            label.style.backgroundImage =`url(${imageUrl}`;
-                            let productImage = document.querySelector('.product-image') ;
-                            productImage.style.backgroundImage =  `url(${imageUrl}`;
-                        })
-                })
+          fetch('/s3url').then(res => res.json())
+              .then(url =>{
+                  fetch(url,{
+                      method: 'PUT',
+                      headers:  new Headers({'Content-Type': 'multipart/form-data'}),
+                      body:file
+                  })
+                      .then(res => {
+                          imageUrl = url.split("?")[0];
+                          imagePaths[index] = imageUrl;
+                          let label = document.querySelector(`label[for=${fileupload.id}]`);
+                          label.style.backgroundImage =`url(${imageUrl}`;
+                          let productImage = document.querySelector('.product-image') ;
+                          productImage.style.backgroundImage =  `url(${imageUrl}`;
+                      })
+              })
         }else {
             showAlert('upload image only')
         }
@@ -87,14 +90,16 @@ const saveDraft = document.querySelector('#save-btn');
 //store size
 
 const storeSizes = () => {
-    let sizeCheckBox = document.querySelector('.size-checkbox');
-    sizeCheckBox.forEach(item =>{
-        if(item.checked){
-            sizes.push(item.value);
-        }
-    })
+  let sizeCheckBox = document.querySelector('.size-checkbox');
+  sizeCheckBox.forEach(item =>{
+      if(item.checked){
+          sizes.push(item.value);
+      }
+  })
 }
 addProductBtn.addEventListener('click', () =>{
     storeSizes();
     console.log(sizes);
 })
+
+
