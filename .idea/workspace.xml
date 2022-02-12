@@ -5,79 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baii so 2/eproject-89846-firebase-adminsdk-hxaor-152b119b63.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/404.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/product-img.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/delete-warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/empty-cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/no image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/no-products.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/js/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/sever.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/allproduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NexTag/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/NexTag/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/.idea/Bai 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/404.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/accessories-collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/accessories-collection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/arrow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card1.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card10.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card11.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card12.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card2.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card3.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card4.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card5.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card6.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card7.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card8.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/card9.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/card9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/dark-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/light-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/men-collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/men-collection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/p1-2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/p1-2.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/p1-3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/p1-3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/p1-4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/p1-4.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/p1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/p1.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/product image 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/product image 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/product image 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/product image 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/product image 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/product image 3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/product image 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/product image 4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/img/women-collection.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/women-collection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/js/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/js/product.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/from.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -119,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/baii so 2/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/baii so 2/public/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -131,11 +80,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\OneDrive\Documents\GitHub\Ngoc-Son\baii so 2\public\img" />
       <recent name="$PROJECT_DIR$/baii so 2/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/baii so 2" />
       <recent name="$PROJECT_DIR$/baii so 2/public" />
+      <recent name="$PROJECT_DIR$/baii so 2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -151,7 +101,8 @@
       <workItem from="1641453545135" duration="4000" />
       <workItem from="1641978495353" duration="10000" />
       <workItem from="1642832128385" duration="38000" />
-      <workItem from="1642832174744" duration="24002000" />
+      <workItem from="1642832174744" duration="60843000" />
+      <workItem from="1644566644976" duration="11621000" />
     </task>
     <servers />
   </component>
@@ -160,5 +111,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/baii so 2/public/js/seller.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
