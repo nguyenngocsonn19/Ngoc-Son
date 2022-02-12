@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/allproduct.html" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/.env" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/eproject-89846-firebase-adminsdk-hxaor-152b119b63.json" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/eproject-89846-firebase-adminsdk-hxaor-152b119b63.json" afterDir="false" />
@@ -43,12 +47,15 @@
       <change beforePath="$PROJECT_DIR$/baii so 2/public/js/from.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/from.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/baii so 2/public/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/sever.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/sever.js" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +66,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -137,16 +144,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/baii so 2/public/js/seller.js</url>
-          <line>9</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
