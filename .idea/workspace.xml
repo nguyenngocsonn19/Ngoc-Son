@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
     </list>
@@ -77,6 +80,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pc\OneDrive\Documents\GitHub\Ngoc-Son\baii so 2\public\img" />
+      <recent name="C:\Users\pc\OneDrive\Documents\GitHub\Ngoc-Son\baii so 2\public\css" />
       <recent name="$PROJECT_DIR$/baii so 2/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +102,7 @@
       <workItem from="1641978495353" duration="10000" />
       <workItem from="1642832128385" duration="38000" />
       <workItem from="1642832174744" duration="60843000" />
-      <workItem from="1644566644976" duration="11621000" />
+      <workItem from="1644566644976" duration="15987000" />
     </task>
     <servers />
   </component>
