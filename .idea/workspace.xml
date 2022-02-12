@@ -6,6 +6,49 @@
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/.env" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/eproject-89846-firebase-adminsdk-hxaor-152b119b63.json" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/eproject-89846-firebase-adminsdk-hxaor-152b119b63.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/add-product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/addProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/addProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/checkout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/product-img.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/product-img.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/a5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/a7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/anh3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/anh4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/delete-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/empty-cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/men-collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/no image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/addProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/addProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/checkout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/from.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/from.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/sever.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/sever.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
