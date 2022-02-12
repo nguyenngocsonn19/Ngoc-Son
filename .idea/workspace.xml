@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h1.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h2.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/baii so 2/public/css/h3.jpg" afterDir="false" />
@@ -24,7 +25,29 @@
       <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h7.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h8.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/baii so 2/public/img/h9.jpg" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/allproduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p9.jpg" afterDir="false" />
+>>>>>>> c041747f6b9e961f496ba6de15bf53d058456dc3
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
