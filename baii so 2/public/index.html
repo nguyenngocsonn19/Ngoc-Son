@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -148,6 +148,9 @@
 
 </section>
 
+<section id="men-tshirt-products"></section>
+
+
 <!-- cards container-->
 <section class="product">
     <h2 class="product-category"> Latest Products</h2>
@@ -263,7 +266,7 @@
 
 
 
-
+<section id="men-tshirt-products-2"></section>
 
 
 
@@ -272,5 +275,10 @@
 <script src="js/home.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/footer.js"></script>
+<script>
+    getProducts('Men Tshirt').then(data => crateProductSlider(data, '#men-tshirt-products','Men T-shirt'))
+    getProducts('Men Tshirt').then(data => crateProductSlider(data, '#men-tshirt-products-2','Men T-shirt'))
+</script>
+
 </body>
 </html>
