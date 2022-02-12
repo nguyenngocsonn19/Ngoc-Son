@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3c5959-62cc-40b4-a792-176dad7293f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/allproduct.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baii so 2/public/img/p9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/dark-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/img/light-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/public/js/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/js/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baii so 2/public/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baii so 2/public/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +33,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="232ciLZB2ZmfHT02BsrGJiegIhp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/baii so 2/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -103,6 +85,7 @@
       <workItem from="1642832128385" duration="38000" />
       <workItem from="1642832174744" duration="60843000" />
       <workItem from="1644566644976" duration="11621000" />
+      <workItem from="1644679295255" duration="869000" />
     </task>
     <servers />
   </component>
