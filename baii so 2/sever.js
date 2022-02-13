@@ -196,6 +196,44 @@ app.get('/add-product', (req,res) =>{
 app.get('/s3url',(req,res) =>{
     generateUrl().then(url => res.json(url));
 })
+// add product
+app.post('/add-product', (req, res)=>{
+    let{name, shortDe, des,images, sizes,actualPrice, discount, sellPrice, stock, tags,email } = req.body;
+    // validation
+    if(!productName.value.length){
+        return res.json({'alert': 'enter product name'});
+    }else if(shortLine.value.length >100 || shortLine.value.length<10){
+        return res.json({'alert': 'Short description must be between 10 to 100 letters long'});
+    }else if(!des.value.length ) {
+        return res.json({'alert': 'enter detail description about the product'});
+    }else if(!imagePaths.length ) {
+        return res.json({'alert': 'Upload at least one product image'});
+    } else if(!sizes.length ) {
+        return res.json({'alert': 'select at color'});
+    }else if(!actualPrice.value.length || !discountPercentage.value.length ||!sellingPrice.value.length ) {
+        return res.json({'alert': 'You must add pricing'});
+    }else if(stock.value.length ) {
+        return res.json({'alert': 'You must should have at 10 item in stock'});
+    }else if(!tags.value.length ) {
+        return res.json({'alert': 'enter few tag to helps ranking your product in search'});
+    }else if(!tac.checked ) {
+        return res.json({'alert': 'you must agree to our terms and conditions'});
+    }else if(!safe.checked) {
+        return res.json({'alert': 'you must agree not sell prohibited items '});
+    }
+    //add product
+    let docName = `${name.toLowerCase()}-${Math.floor(Math.random() * 5000)}`;
+    db.collection('products').doc(docName).set(req.body)
+        .then(data => {
+            res.json({'product': name});
+
+        })
+        .catch(err => {
+            return res.json({'alert': 'some error occrues. Try again'})
+        })
+
+
+})
 
 //404
 app.get('/404',(req, res) => {

@@ -32,17 +32,18 @@ discountPercentage.addEventListener('input', () => {
 })
 
 sellingPrice.addEventListener('input' , () => {
-    let discount = (sellingPrice.value / actualPrice.value) * 100;
+    let
+        discount = (sellingPrice.value / actualPrice.value) * 100;
     discountPercentage.value = discount;
 })
 
 //upload img
 let  uploadImages = document.querySelector('.fileupload');
-let image =  [];
+let imagePaths =  [];
 
 uploadImages.forEach((fileupload, index) =>{
 
-    fileupload.addEventListener('chage', () =>{
+    fileupload.addEventListener('change', () =>{
         const file = fileupload.files[0];
         let imageUrl;
 
@@ -75,31 +76,76 @@ uploadImages.forEach((fileupload, index) =>{
 const productName = document.querySelector('#product-name');
 const shortLine = document.querySelector('#short-des');
 const des = document.querySelector('#des');
-
 let sizes = [];
-
 const stock = document.querySelector('#stock');
 const tags = document.querySelector('#tags');
 const tac =document.querySelector('#tac');
 const safe = document.querySelector('#safe');
-
 //buttons
 const  addProductBtn = document.querySelector('#add-btn');
 const saveDraft = document.querySelector('#save-btn');
 
 //store size
-
 const storeSizes = () => {
-  let sizeCheckBox = document.querySelector('.size-checkbox');
-  sizeCheckBox.forEach(item =>{
+    sizes = [];
+  let sizeCheckBox = document.querySelectorAll('.size-checkbox');
+  sizeCheckBox.forEach(item => {
       if(item.checked){
           sizes.push(item.value);
       }
   })
 }
+
+const  validateFrom = () => {
+    if(!productName.value.length){
+        return showAlert('enter product name');
+    }else if(shortLine.value.length >100 || shortLine.value.length<10){
+        return showAlert('Short description must be between 10 to 100 letters long');
+    }else if(!des.value.length ) {
+        return showAlert('enter detail description about the product');
+    }else if(!imagePaths.length ) {
+        return showAlert('Upload at least one product image');
+    } else if(!sizes.length ) {
+        return showAlert('select at color');
+    }else if(!actualPrice.value.length || !discountPercentage.value.length ||!sellingPrice.value.length ) {
+        return showAlert('You must add pricing');
+    }else if(stock.value.length ) {
+    return showAlert('You must should have at 10 item in stock');
+    }else if(!tags.value.length ) {
+        return showAlert('enter few tag to helps ranking your product in search');
+    }else if(!tac.checked ) {
+        return showAlert('you must agree to our terms and conditions');
+    }else if(!safe.checked) {
+        return showAlert('you must agree not sell prohibited items ');
+    }
+    return true;
+}
+const productData = () => {
+    return data = {
+        name: productName.value,
+        shortDes: shortLine.value,
+        des: des.value,
+    image: imagePaths.value,
+        sizes: sizes,
+        actualPrice: actualPrice.value,
+        discount: discountPercentage.value,
+        sellPrice: sellingPrice.value,
+        tags: tags.value,
+        tac: tac.checked,
+        safe: safe.checked,
+        email: user.email
+
+
+    }
+}
+
 addProductBtn.addEventListener('click', () =>{
     storeSizes();
-    console.log(sizes);
-})
 
+    if (validateFrom()){
+  loader.style.display ='block';
+        let data = productData();
+        sendData('/add-product', data );
+    }
+})
 

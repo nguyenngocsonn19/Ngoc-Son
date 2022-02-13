@@ -23,7 +23,7 @@
 </div>
     <ul class="links-container">
         <li class="link-item"><a href="index.html" class="link">Home</a></li>
-        <li class="link-item"><a href="" class="link">Products</a></li>
+        <li class="link-item"><a href="search.html" class="link">Products</a></li>
         <li class="link-item"><a href="" class="link">About</a></li>
         <li class="link-item"><a href="" class="link">Contact</a></li>
         <li class="link-item"><a href="" class="link">Brands</a></li>
@@ -76,7 +76,7 @@
             <img src="img/user.png" id="user-img" alt="">
             <div class="login-logout-popup hide">
                 <p class="account-info" >Login as,name</p>
-               <button class="btn" id="user-btn" >Log out</button>
+               <button class="btn" id="user-btn" >Login</button>
             
             </div>
         </a>

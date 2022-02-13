@@ -58,7 +58,7 @@ footer{
 }
 .social-link{
     color: #ffffff;
-    margin-left:20px ;
+     margin: 5px;
     text-transform: capitalize;
 }
 .social-link:nth-child(1){

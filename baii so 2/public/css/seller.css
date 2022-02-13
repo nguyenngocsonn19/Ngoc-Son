@@ -80,3 +80,9 @@ border-radius: 10px;
  margin: auto;
     display: block;
 }
+.hide{
+    display: none;
+}
+.product-container{
+    padding: 0 5vw;
+}

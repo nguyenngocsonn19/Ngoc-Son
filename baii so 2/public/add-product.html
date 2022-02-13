@@ -5,6 +5,8 @@
     <title>Add Product</title>
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/seller.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/search.css">
 </head>
 <body>
 
@@ -19,14 +21,33 @@
 
 
 
-<div class="product-listing">
-    <div class="add-product">
-        <p class="add-product-title"> Add product</p>
-        <button class="btn">Add product</button>
+    <div class="product-listing ">
+        <div class="add-product">
+            <p class="add-product-title"> Add product</p>
+            <button class="btn" onclick="location.href= 'addProduct.html'">Add product</button>
 
+        </div>
+        <img src="img/no-products.png" class="no-product-image hide" alt="">
+        <!-- cards   -->
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">-50% off</span>
+                    <img src="img/anh1.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">Add To Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">MCM</h2>
+                    <p class="product-short-des">Modern Creation Munich </p>
+                    <span class="price">$300</span>
+                    <span class=" actual-price">$600</span>
+                </div>
+            </div>
+        </div>
     </div>
-    <img src="img/no-products.png" class="no-product-image" alt="">
-</div>
+
+
 
 <script src="js/token.js"> </script>
 <script src="js/seller.js"></script>

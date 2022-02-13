@@ -94,7 +94,6 @@ const processData = (data) =>{
 
 
 
-
 const  showAlert = (msg) => {
     let alertBox = document.querySelector('.alert-box');
     let alertMsg =document.querySelector('.alert-msg');
