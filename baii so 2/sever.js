@@ -234,6 +234,29 @@ app.post('/add-product', (req, res)=>{
 
 
 })
+// get product
+app.post('/get-products', (req,res)=>{
+    let {email} = req.body;
+    let docRef = db.collection('products').where('email', '==', email);
+
+    docRef.get()
+        .then(products => {
+            if(products.empty){
+                return res.json('no products')
+            }
+            let productArr = [];
+            products.forEach(item =>{
+                let data = item.data();
+                data.id = item.id;
+                productArr.push(data);
+
+            })
+            res.json(productArr);
+
+        })
+})
+
+
 
 //404
 app.get('/404',(req, res) => {
