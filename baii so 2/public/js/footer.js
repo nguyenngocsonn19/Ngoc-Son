@@ -9,27 +9,26 @@ const createFooter = () => {
     <img src="img/light-logo.png"  alt="">
     <div class="footer-ul-container">
         <ul class="category">
-            <li class="category-title">Men</li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
+            <li class="category-title">CLIENT SERVICES</li>
+            <li><a href="" class="footer-links">Contact</a> </li>
+            <br>
+            <li><a href="" class="footer-links">Product Management</a> </li>
+            <br>
+            <li><a href="" class="footer-links">Take care of customer</a> </li>
+            
+            
 
         </ul>
         <ul class="category">
-            <li class="category-title">Men</li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
-            <li><a href="" class="footer-links">Men</a> </li>
+            <li class="category-title">QUALITY BRANDS</li>
+            <li><a href="" class="footer-links">Chanel</a> </li>
+            <br>
+            <li><a href="" class="footer-links">Dior</a> </li>
+            <br>
+            <li><a href="" class="footer-links">MCM</a> </li>
+            <br>
+            <li><a href="" class="footer-links">Louis Vuitton</a> </li>
+            
 
         </ul>
     </div>
