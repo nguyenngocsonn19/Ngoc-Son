@@ -198,7 +198,7 @@ app.get('/s3url',(req,res) =>{
 })
 // add product
 app.post('/add-product', (req, res)=>{
-    let{name, shortDe, des,images, sizes,actualPrice, discount, sellPrice, stock, tags,email } = req.body;
+    let{name, shortDe, des,images, sizes,actualPrice, discount, sellPrice, stock, tags,email, draft } = req.body;
     // validation
     if(!productName.value.length){
         return res.json({'alert': 'enter product name'});
@@ -254,6 +254,18 @@ app.post('/get-products', (req,res)=>{
             res.json(productArr);
 
         })
+})
+
+//
+app.post('/delete-product', (req, res) =>{
+    let { id } = req,body;
+    db.collection('products').doc(id).delete()
+        .then(data =>{
+            res.json('success');
+        }).catch(err =>{
+            res.json('err');
+        })
+
 })
 
 

@@ -34,7 +34,7 @@ const createFooter = () => {
     </div>
 </div>
     <p class="footer-title">About Company</p>
-    <p class="info">Address:No. 8, Ton That Thuyet Street, My Dinh Ward, Nam Tu Liem District, Hanoi City </p>
+    <p class="info">Address: No. 8, Ton That Thuyet Street, My Dinh Ward, Nam Tu Liem District, Hanoi City </p>
     <p class="info">Support Emails - help@gmail.com</p>
     <p class="info">Telephone - 0123456789-0123456789</p>
     <div class="footer-social-container">
