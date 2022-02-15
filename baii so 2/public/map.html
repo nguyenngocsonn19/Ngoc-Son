@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+
+
+  </style>
+<div class="navbar"></div>
+  <br><br><br>
+    <div id="googleMap" style="width: 100%; height:500px"></div>
+
+    <script>
+      function myMap() {
+        const myLatLng = { lat: 21.029485861975346, lng: 105.78266442503336 };
+        const map = new google.maps.Map(document.getElementById("googleMap"), {
+          zoom: 17.5,
+          center: myLatLng,
+        });
+
+        new google.maps.Marker({
+          position: myLatLng,
+          map,
+        });
+      }
+    </script>
+
+    <script class="map" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQyzJ20ZenSTUiNDPWV8A85-nwI1ks_Us&callback=myMap"></script>
+  <br><br><br>
+  <footer></footer>
+  <script src="js/footer.js"></script>
+  <script src="js/nav.js"></script>
+  </body>
+</html>

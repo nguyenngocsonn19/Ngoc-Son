@@ -5,14 +5,14 @@ let user =JSON.parse(sessionStorage.user ||null);
 let loader = document.querySelector('.loader');
 
 window.onload = () =>{
-    if(user){
+   /* if(user){
         if(!compareToken(user.authToken,user.email)){
-            location.replace('/login'/* /login */);
+            location.replace('/login'  );
         }
     } else {
         location.replace('/login.html'
         )
-    }
+    }*/
 
 }
 
@@ -32,8 +32,7 @@ discountPercentage.addEventListener('input', () => {
 })
 
 sellingPrice.addEventListener('input' , () => {
-    let
-        discount = (sellingPrice.value / actualPrice.value) * 100;
+    let discount = (sellingPrice.value / actualPrice.value) * 100;
     discountPercentage.value = discount;
 })
 
@@ -125,7 +124,7 @@ const productData = () => {
         name: productName.value,
         shortDes: shortLine.value,
         des: des.value,
-    image: imagePaths.value,
+        image: imagePaths.value,
         sizes: sizes,
         actualPrice: actualPrice.value,
         discount: discountPercentage.value,
@@ -148,4 +147,15 @@ addProductBtn.addEventListener('click', () =>{
         sendData('/add-product', data );
     }
 })
-
+// save draft btn
+saveDraft.addEventListener('click', () =>{
+ storeSizes();
+ //check for product name
+    if(!productName.value.length){
+        showAlert('enter product name');
+    }else {
+        let data = productData();
+        data.draft = true;
+        sendData('/add-product', data);
+    }
+})

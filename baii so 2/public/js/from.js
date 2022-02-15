@@ -38,7 +38,8 @@ submitBtn.addEventListener('click', () =>{
           showAlert('You must agree to our terms and conditions');
       } else {
 
-          loader.style.display = 'block';
+          location.href="login.html"
+
           sendData('/signup', {
               name: name.value,
               email: email.value,
@@ -57,7 +58,9 @@ submitBtn.addEventListener('click', () =>{
           showAlert('Fill all the inputs');
       }
       else {
-          loader.style.display = 'block';
+          location.href="index.html"
+
+
           sendData('/login', {
 
               email: email.value,
