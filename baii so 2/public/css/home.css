@@ -13,7 +13,8 @@
 .hero-section .logo{
     height: 150px ;
     display: block;
-    margin: auto ;
+    margin:  0 auto ;
+
 
 }
 .hero-section .sub-heading{

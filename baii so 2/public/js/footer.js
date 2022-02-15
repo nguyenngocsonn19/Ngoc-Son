@@ -20,7 +20,7 @@ const createFooter = () => {
 
         </ul>
         <ul class="category">
-            <li class="category-title">QUALITY BRANDS</li>
+            <li class="category-title">HIGH-END BRANDS</li>
             <li><a href="" class="footer-links">Chanel</a> </li>
             <br>
             <li><a href="" class="footer-links">Dior</a> </li>
