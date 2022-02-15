@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product Page</title>
+    <title>Add Product</title>
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/addProduct.css">
 </head>
@@ -14,12 +14,12 @@
         <img src="img/error.png" class="alert-img" alt="">
         <p class="alert-msg"></p>
     </div>
+
     <img src="img/dark-logo.png" class="logo" alt="">
     <div class="form">
         <input type="text" id="product-name"  placeholder="Product name">
         <input type="text" id="short-des" placeholder="Short line about the product">
         <textarea name="" id="des" placeholder="detail description"></textarea>
-
 
         <!---product img--->
         <div class="product-info">
@@ -41,10 +41,8 @@
                     <label for="fourth-file-upload-btn" class="upload-image" ></label>
                 </div>
 
-
-
             </div>
-            <div class="select-size">
+            <div class="select-color">
                 <p class="text">color available</p>
                 <div class="sizes"><!--the class name is "size" but I changed the display to "color"-->
                     <input type="checkbox" class="size-checkbox" id="black" value="black" style="border:2px solid black" >
@@ -57,10 +55,36 @@
                     <input type="checkbox" class="size-checkbox" id="indigo" value="indigo" style="border:2px solid indigo" >
                     <input type="checkbox" class="size-checkbox" id="violet" value="violet" style="border:2px solid violet" >
                     <input type="checkbox" class="size-checkbox" id="other" value="other" style="border:2px solid #333333" >
+                </div>
+
+            </div>
+            <div class="select-size" >
+                <p class="text">Size Available</p><br>
+                <div class="size"><!--the class name is "size" but I changed the display to "color"-->
+                    <input type="checkbox" class="size-checkbox"  value="small"  >
+                    <input type="checkbox" class="size-checkbox" value="medium" >
+                    <input type="checkbox" class="size-checkbox"  value="large"  >
 
                 </div>
             </div>
+            <div class="select-mat">
+                <p class="text"> Material Available</p><br><br>
+                <div class="size"><!--the class name is "size" but I changed the display to "color"-->
+                    <input type="checkbox" class="size-checkbox"  value="cotton"  >
+                    <input type="checkbox" class="size-checkbox" value="leather" >
+                    <input type="checkbox" class="size-checkbox"  value="canvas"  >
+                    <input type="checkbox" class="size-checkbox"  value="nylon"  >
+                    <input type="checkbox" class="size-checkbox"  value="polyester"  >
+                    <input type="checkbox" class="size-checkbox"  value="other"  >
+                </div>
+            </div>
 
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="product-price">
+            <input type="number" id="height" placeholder="Height">
+            <input type="number" id="width" placeholder="Width ">
+            <input type="number" id="depth" placeholder="depth">
         </div>
 
         <div class="product-price">
@@ -69,8 +93,36 @@
             <input type="number" id="sell-price" placeholder="selling price">
         </div>
 
+
         <input type="number" id="stock" min="10" placeholder="item in stocks (minimum 10)" >
         <textarea  id="tags" placeholder="enter categories here, for example - Men,Woman,Leather(you should add men or woman at start"></textarea>
+
+
+        <div class="select-brand">
+            <p class="text"> Brand Available</p><br>
+            <div class="size "><!--the class name is "size" but I changed the display to "color"-->
+                <input type="checkbox" class="size-checkbox2"  value="gucci"  >
+                <input type="checkbox" class="size-checkbox2" value="louis vuitton" >
+                <input type="checkbox" class="size-checkbox2"  value="prada"  >
+                <input type="checkbox" class="size-checkbox2"  value="versace"  >
+                <input type="checkbox" class="size-checkbox2"  value="mcm"  >
+                <input type="checkbox" class="size-checkbox2"  value="elly"  >
+                <input type="checkbox" class="size-checkbox2"  value="Ysl"  >
+                <input type="checkbox" class="size-checkbox2" value="mochino" >
+                <input type="checkbox" class="size-checkbox2"  value="docle & gabana"  >
+                <input type="checkbox" class="size-checkbox2"  value="hermes"  >
+                <input type="checkbox" class="size-checkbox2"  value="nike"  >
+                <input type="checkbox" class="size-checkbox2"  value="adidas"  >
+                <input type="checkbox" class="size-checkbox2" value="mochino" >
+                <input type="checkbox" class="size-checkbox2"  value="docle & gabana"  >
+                <input type="checkbox" class="size-checkbox2"  value="hermes"  >
+                <input type="checkbox" class="size-checkbox2"  value="nike"  >
+                <input type="checkbox" class="size-checkbox2"  value="adidas"  >
+                <input type="checkbox" class="size-checkbox2"  value="other"  >
+
+            </div>
+        </div>
+        <br>
         <input type="checkbox" class="checkbox" id="tac" >
         <label for="tac">Clothing take 30% from your today sell</label>
         <br>
@@ -79,13 +131,14 @@
         <label for="safe">Agree to terms and do not sell prohibited items</label>
         <div class="buttons">
             <button class="btn" id="add-btn">add product</button>
-            <button class="btn" id="save-btn" onclick="showAlert('asdasd')">save draft</button>
-
+            <button class="btn" id="save-btn" onclick="shoW('asdasd')">save draft</button>
         </div>
+
     </div>
 
 
 <script src="js/token.js"></script>
+<script src="js/addproduct2.js"></script>
 <script src="js/addProduct.js"></script>
 </body>
 </html>
