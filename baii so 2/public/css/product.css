@@ -50,6 +50,7 @@
     height: auto;
     margin: 15px 0 30px;
 
+
 }
 .product-price{
     font-weight: 700;
@@ -80,7 +81,7 @@
 }
 .product-sub-heading{
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin: 60px 0 10px;
     font-weight: 300 ;
 
@@ -92,14 +93,18 @@
     height: 80px;
     text-align: center;
     font-size: 20px;
-    border: 1px solid white;
+    border: 1px solid #383838;
     border-radius: 50%;
     margin: 10px;
     margin-left: 0;
     line-height: 80px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #383838;
     cursor: pointer;
+}
+.size-radio-btn.check{
+    background: #383838;
+    color: white;
 }
 .details-des{
     padding: 0 10vw;

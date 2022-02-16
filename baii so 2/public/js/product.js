@@ -19,3 +19,14 @@ smallImg[3].onclick = function ()
 {
     productImg.src = smallImg[3].src;
 }
+//btn select size
+const sizeBtn = document.querySelectorAll('.size-radio-btn');
+let checkedBtn = 0;
+
+sizeBtn.forEach((item, i) =>{
+    item.addEventListener('click', () => {
+        sizeBtn[checkedBtn].classList.remove('check');
+        item.classList.add('check');
+        checkedBtn = i;
+    })
+})
