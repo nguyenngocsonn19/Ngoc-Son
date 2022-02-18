@@ -24,7 +24,9 @@ textarea{
 }
 .product-info{
     width: 100%;
-    height: 500px;
+    height: 270px ;
+    resize: none;
+    padding: 10px 20px;
     display: grid;
     grid-template-columns: .75fr 1.25fr;
     grid-template-rows: repeat(2 ,1fr);
@@ -47,10 +49,22 @@ textarea{
     font-size: 20px;
     font-weight: 500;
 }
-.upload-image-sec, .select-size{
+.upload-image-sec, .select-size {
     background: #ffffff;
     border-radius: 10px;
     padding: 20px ;
+}
+.select-brand,.select-mat,.select-color{
+    background: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+    padding: 10px 20px;
+
+
+}
+.select-brand{
+    margin: 20px;
 }
 .text img{
 
@@ -83,9 +97,10 @@ textarea{
     margin-top: 30px;
 }
 .size-checkbox{
+    border: 1px solid #383838;
     -webkit-appearance: none;
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 30px;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
@@ -93,6 +108,7 @@ textarea{
     position: relative;
     color: #383838;
 }
+
 .size-checkbox::after{
     content: attr(value);
     position: absolute;
@@ -107,6 +123,39 @@ textarea{
     color: white;
 }
 
+/* check box brands*/
+.size-checkbox2{
+    border: 1px solid #383838;
+    -webkit-appearance: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    color: #383838;
+    padding: 10px 20px;
+
+
+}
+.size-checkbox2::after{
+    content: attr(value);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.size-checkbox2:checked{
+    background: #383838;
+    color: white;
+}
+
+
+
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button{
     -webkit-appearance: none;
@@ -116,6 +165,9 @@ input::-webkit-inner-spin-button{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
+    width: 100%;
+    resize: none;
+    padding: 10px 20px;
 
 }
 
@@ -123,21 +175,32 @@ input::-webkit-inner-spin-button{
     margin:0;
 }
 .buttons{
-    margin: 30px 15px 50px;
-
+justify-content: center;
+    justify-items: center;
 
 }
 .btn{
-    padding: 10px 30px;
-    text-transform: capitalize;
-    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    justify-items: center;
     background: #383838;
-    border-radius: 5px;
-    border:none;
-    outline: none;
-    margin-right: 10px;;
+    line-height: 40px;
+    color: #ffffff;
+    border-radius: 2px;
+    text-transform: capitalize;
+    border: none;
     cursor: pointer;
+  border-radius: 4px;
+    margin: 20px  ;
 
+}
+.texts{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+
+    margin: 20px  ;
 
 }
 #save-btn{

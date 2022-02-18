@@ -8,7 +8,8 @@
     <div class="nav-items">
         <div class="search">
             <input type="text" class="search-box" placeholder="Search brand, product">
-            <button class="search-btn">Search</button>
+            <button class="search-btn" >Search</button>
+           
         </div>
         <a href="#">
             <img src="img/user.png" id="user-img" alt="">
@@ -18,7 +19,8 @@
             
             </div>
         </a>
-        <a href="#"><img src="img/cart.png" alt=""></a>
+        <a href="cart.html"><img src="img/cart.png" alt=""></a>
+        <a href=""><img src="img/wishlist.png" width="90%" alt=""></a>
     </div>
 </div>
     <ul class="links-container">
@@ -123,3 +125,12 @@
          }
      }
  }
+
+ //search
+ const searchBtn = document.querySelector('.search-btn');
+ const  searchBox = document.querySelector('.search-box');
+ searchBtn.addEventListener('click', () =>{
+     if(searchBox.value.length){
+         location.href=`/search/${searchBox.value}`
+     }
+ })

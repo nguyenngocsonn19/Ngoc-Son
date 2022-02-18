@@ -1,5 +1,7 @@
 const openEditor = () =>{
-    sessionStorage.tempOro
+    sessionStorage.tempProduct = JSON.stringify(data);
+    location.href='add-product.html';
+
 }
 
 

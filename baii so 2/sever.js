@@ -269,7 +269,9 @@ app.post('/delete-product', (req, res) =>{
 })
 
 
-
+app.get('search/:key', (req,res) =>{
+    res.sendFile(path.join(staticPath,"search.html"));
+})
 //404
 app.get('/404',(req, res) => {
     res.sendFile(path.join(staticPath,"404.html"));

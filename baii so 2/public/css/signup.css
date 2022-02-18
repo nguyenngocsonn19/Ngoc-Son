@@ -75,6 +75,7 @@ textarea{
     border: 1px solid#383838;
     cursor: pointer;
     margin-right: 10px;
+
 }
 .checkbox:checked{
     background: #383838;
