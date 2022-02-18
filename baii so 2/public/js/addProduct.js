@@ -159,3 +159,26 @@ saveDraft.addEventListener('click', () =>{
         sendData('/add-product', data);
     }
 })
+// exisiting product detail handle
+
+let productId = null;
+if(location.pathname != '/add-product'){
+    productId = decodeURI(location.pathname.split('/').pop());
+
+    let productDetail = JSON.parse(sessionStorage.tempProduct || null);
+    // fetch the data if product is not in session
+    if(productDetail == null){
+        fetchProductData();
+    }
+
+}
+
+const fetchProductData = () => {
+    // delete the temProduct from the session
+    delete sessionStorage.tempProduct;
+    fetch('/get-product', {
+        method: 'post',
+        headers: new Headers({'Content-type': 'application/json'}),
+
+    })
+}
