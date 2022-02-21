@@ -179,6 +179,18 @@ const fetchProductData = () => {
     fetch('/get-product', {
         method: 'post',
         headers: new Headers({'Content-type': 'application/json'}),
-
+        body: JSON.stringify({email: user.email, id: productId})
     })
+        .then((res) => res.json())
+        .then(data => {
+            console.log(data)
+        })
+
+}
+
+let productId =null;
+if(location.pathname != '/add-product'){
+    productId = decodeURI(location.pathname.split('/').pop());
+
+    fetchProductData();
 }
