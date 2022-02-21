@@ -14,7 +14,7 @@ const createFooter = () => {
             <br>
             <li><a href="" class="footer-links">Product Management</a> </li>
             <br>
-            <li><a href="" class="footer-links">Take care of customer</a> </li>
+            <li><a href="" class="footer-links">customer care</a> </li>
             
             
 

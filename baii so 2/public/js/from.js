@@ -1,13 +1,13 @@
 
 
-window.onload =()=>{
+/*window.onload =()=>{
     if(sessionStorage.user){
         user = JSON.parse(sessionStorage.user);
         if(compareToken(user.authToken, user.email)){
             location.replace('/')
         }
     }
-}
+}*/
 
 
 
@@ -23,7 +23,7 @@ const  tac = document.querySelector('#terms-and-cond')|| null;
 const  notification = document.querySelector('#notification')|| null;
 
 submitBtn.addEventListener('click', () =>{
-  if(name != null) {
+  if(name) {
       if (name.value.length < 3) {
           showAlert('Name must be 3 letters long');
       } else if (!email.value.length) {
@@ -54,8 +54,10 @@ submitBtn.addEventListener('click', () =>{
       }
   }
   else {
-      if (!email.value.length || !password.value.length) {
-          showAlert('Fill all the inputs');
+      if (!email.value.length ) {
+          showAlert('enter your email');
+      } else if(!password.value.length){
+          showAlert('enter your password')
       }
       else {
           location.href="index.html"
@@ -71,7 +73,7 @@ submitBtn.addEventListener('click', () =>{
   }
 })
 
-const  sendData = (path, data) => {
+/*const  sendData = (path, data) => {
     fetch(path,{
         method: 'post',
         headers: new  Headers({'Content-Type':'application/json'}),
@@ -95,7 +97,7 @@ const processData = (data) =>{
     }
 }
 
-
+*/
 
 const  showAlert = (msg) => {
     let alertBox = document.querySelector('.alert-box');

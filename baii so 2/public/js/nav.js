@@ -26,9 +26,8 @@
     <ul class="links-container">
         <li class="link-item"><a href="index.html" class="link">Home</a></li>
         <li class="link-item"><a href="search.html" class="link">Products</a></li>
-        <li class="link-item"><a href="" class="link">About</a></li>
-        <li class="link-item"><a href="map.html" class="link">Contact Maps</a></li>
-        <li class="link-item"><a href="" class="link">Brands</a></li>
+        <li class="link-item"><a href="about.html" class="link">About Us</a></li>
+        <li class="link-item"><a href="map.html" class="link">Contact</a></li>
         <li class="link-item"><a href="login.html" class="link">Login</a></li>
     </ul>
     `;
@@ -88,9 +87,9 @@
     <ul class="links-container">
         <li class="link-item"><a href="index.html" class="link">Home</a></li>
         <li class="link-item"><a href="search.html" class="link">Products</a></li>
-        <li class="link-item"><a href="" class="link">About</a></li>
-        <li class="link-item"><a href="" class="link">Contact</a></li>
-        <li class="link-item"><a href="" class="link">Brands</a></li>
+        <li class="link-item"><a href="about.html" class="link">About</a></li>
+        <li class="link-item"><a href="map.html" class="link">Contact</a></li>
+      
         <li class="link-item"><a href="signup.html" class="link">Login</a></li>
     </ul>
     `;

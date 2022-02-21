@@ -1,8 +1,8 @@
-//creat small proudct cards
-const creatSmallCards = (data) => {
+//creat small product cards
+ const creatSmallCards = (data) => {
     return `
         <div class="sm-product">
-                <img src="${data.image}" class="sm-product-img" alt="">
+                
                 <div class="sm-text">
                     <p class="sm-product-name">${data.name}</p>
                     <p class="sm-des">${data.shortDes}</p>
@@ -24,7 +24,7 @@ let totalBill = 0;
         const element = document.querySelector(`.${name}`);
         let data = JSON.parse(localStorage.getItem(name));
         if (data == null){
-            element.innerHTML = `<img src="img/empty-cart.png" class="empty-img" alt="">`;
+            // element.innerHTML = `<img src="img/empty-cart.png" class="empty-img" alt="">`;
         } else{
             for(let i = 0; i < data.length; i++) {
                 element.innerHTML += createSmallCards(data[i]);
@@ -39,7 +39,7 @@ let totalBill = 0;
         setupEvents(name);
         }
 
-        const updateBill = () {
+        const updateBill = () => {
     let billPrice = document.querySelector('.bill');
     billPrice.innerHTML = `$${totalBill}`;
 
@@ -47,16 +47,16 @@ let totalBill = 0;
 
         const setupEvents = (name) => {
          //setup counter event
-            const  counterMinus = document.querySelectorAll(`.${name} .decrement`);
-            const  counterPlus = document.querySelectorAll(`.${name} .increment`);
-            const  price = document.querySelectorAll(`.${name} .item-count`);
-            const  deleteBtn = document.querySelectorAll(`.${name} .sm-price`);
-            const  countMinus = document.querySelectorAll(`.${name} .sm-delete-btn`);
+            const  counterMinus = document.querySelectorAll('.decrement');
+            const  counterPlus = document.querySelectorAll('.increment');
+            const  price = document.querySelectorAll(' .item-count');
+            const  deleteBtn = document.querySelectorAll('.sm-price');
+            const  countMinus = document.querySelectorAll('.sm-delete-btn');
 
             let product = JSON.parse(localStorage.getItem(name));
 
             counts.forEach((item, i) => {
-                let const = Number(price[i].getAttribute('data-price'));
+                let cost = Number(price[i].getAttribute('data-price'));
 
                 counterMinus[i].addEventListener('click', () => {
                     if(item.innerHTML > 1){

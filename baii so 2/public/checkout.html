@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nextag : Checkout</title>
+    <title>Checkout</title>
 
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/home.css">
@@ -14,26 +14,34 @@
 
 </head>
 <body>
+<img src="img/loader.gif" class="loader" alt="">
 
+<div class="alert-box" >
+    <img src="img/error.png" class="alert-img" alt="">
+    <p class="alert-msg">Error Message</p>
+</div>
     <nav class="navbar"></nav>
 
-    <div class="alert-box">
-        <img src="img/error.png" class="alert-img" alt="">
-        <p class="alert-msg"></p>
-    </div>
+
 
     <div class="form">
         <h1 class="heading">checkout</h1>
         <p class="text">delivery address</p>
         <input type="text" id="address" placeholder="address">
-        <input type="text" id="street" placeholder="street">
-        <div class="three-input-container">
-            <input type="text" id="city" placeholder="city">
-            <input type="text" id="state" placeholder="state">
-            <input type="text" id="pincode" placeholder="pin code">
-        </div>
-        <input type="text" id="landmark" placeholder="landmark">
+        <input type="text" id="number" placeholder="phone number">
+        <input type="text" id="bNumber" placeholder="backup phone number">
+        <input type="text" id="message" placeholder="a message to the seller">
+        <select name="shipping" id="shipping">
+            <option value="1">Chose Shipping unit</option>
+            <option value="2">AAA shipping</option>
+            <option value="3">FSA shipping</option>
+            <option value="4">FEX shipping</option>
+            <option value="5">Fast post</option>
+            <option value="6">FVS shipping</option>
+            <option value="7">ABC Fast</option>
+        </select>
     </div>
+
 
     <div class="cart-section">
         <div class="product-list">
@@ -47,6 +55,7 @@
                 <p class="text">your total bill</p>
                 <h1 class="bill">$00</h1>
                 <button class="place-order-btn">place order</button>
+                <button class="place-order-btn" onclick="showAlert('adasdasd')">pasdr</button>
             </div>
         </div>
     </div>
@@ -58,7 +67,7 @@
             <script src="js/home.js"></script>
             <script src="js/cart.js"></script>
              <script src="js/token.js"></script>
-            <script src="js"></script>
+            <script src="js/checkout.js"></script>
 
 
 

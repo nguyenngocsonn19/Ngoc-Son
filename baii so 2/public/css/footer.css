@@ -15,7 +15,8 @@ footer{
     height: 160px ;
 }
 .footer-ul-container{
-    width: 45%;display: flex;
+    width: 45%;
+    display: flex;
     justify-content: space-between;
 }
 .category {
@@ -27,6 +28,7 @@ footer{
 }
 .category-title{
     grid-column: span 2;
+
     text-transform: capitalize;
     color: #ffffff;
     font-size: 20px;
@@ -40,6 +42,7 @@ footer{
 }
 .footer-links:hover{
     color: white;
+    font-weight: bold;
 }
 .footer-title{
     color: rgba(255,255,255, 0.75 );

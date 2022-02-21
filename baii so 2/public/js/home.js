@@ -15,3 +15,20 @@ productContainer.forEach((item, i ) => {
         item.scrollLeft -= containerWidth;
     })
 })
+const  add_product_to_cart_or_wishlist = (type, product) =>{
+    let data = JSON.parse(localStorage.getItem(type));
+    if(data = null){
+        data= [];
+    }
+    product = {
+        item: 1,
+        name:product.name,
+        sellPrice: product.sellPrice,
+        sizes: sizes || null,
+        shortDes:  product.shortDes,
+        image: product.image[0]
+    }
+    data.push(product);
+    console.log(data);
+    return'added'
+}

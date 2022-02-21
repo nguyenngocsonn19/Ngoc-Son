@@ -30,3 +30,13 @@ sizeBtn.forEach((item, i) =>{
         checkedBtn = i;
     })
 })
+
+const wishlistBtn = document.querySelector('.wishlist-btn');
+    wishlistBtn.addEventListener('click', () =>{
+        wishlistBtn.innerHTML = add_product_to_cart_or_wishlist('wishlist',data);
+
+    })
+const cartBtn = document.querySelector('.cards-btn');
+    cartBtn.addEventListener('click',()=> {
+        cartBtn.innerHTML=   add_product_to_cart_or_wishlist('wishlist',data);
+    })

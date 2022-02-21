@@ -1,4 +1,4 @@
-window.onload = () => {
+/*window.onload = () => {
     if(!sessionStorage.user){
         location.replace('/login')
     }
@@ -12,15 +12,51 @@ placeOrderBtn.addEventListener('click', () => {
 const getAddress = () => {
     // validation
     let address = document.querySelector('#address').value;
-    let street = document.querySelector('#street').value;
-    let city = document.querySelector('#city').value;
-    let state = document.querySelector('#state').value;
-    let pincode = document.querySelector('#pincode').value;
-    let landmark = document.querySelector('#landmark').value;
+    let number = document.querySelector('#number').value;
+    let bNumber = document.querySelector('#bNumber').value;
+    let message = document.querySelector('#message').value;
+    let shipping = document.querySelector('#shipping').value;
 
-    if (!address.length || !street.length || !city.length || !state.length || !pincode.length || !landmark.length){
+
+    if (!address.length || !number.length || !bNumber.length ){
         return showAlert('fill all the inputs first');
     } else {
-        return { address, street, city, state, pincode, landmark};
+        return { address, number, bNumber,};
     }
+} */
+const  oderBtn = document.querySelector('.place-order-btn');
+const address = document.querySelector('#address');
+const number = document.querySelector('#number');
+const bNumber = document.querySelector('#bNumber')
+const message = document.querySelector('#message');
+const shipping = document.querySelector('#shipping');
+
+oderBtn.addEventListener('click', () =>{
+    if(address.value.length) {
+        showAlert('you must enter your address');
+    }else if(number.value.length){
+        showAlert('you must enter your number');
+    }else if(bNumber.value.length) {
+        showAlert('you must enter your backup phone number');
+    }else if(message.value.length){
+        showAlert('you must enter your message');
+    }
+     else {
+      location.href='index.html';
+    }
+})
+const  showAlert = (msg) => {
+    let alertBox = document.querySelector('.alert-box');
+    let alertMsg =document.querySelector('.alert-msg');
+    alertMsg.innerHTML = msg;
+    alertBox.classList.add('show');
+    setTimeout(() =>{
+        alertBox.classList.remove('show')
+    }, 3000)
+
 }
+
+
+
+
+

@@ -10,12 +10,12 @@ body{
 
 .heading{
     text-transform: capitalize;
-    font-size: 500;
+    font-weight: 500;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-.form input{
+.form input, select{
     background: #f5f5f5; !important;
     width: 100%;    !important;
 }
@@ -31,4 +31,36 @@ body{
 
 #state{
     margin: 0 20px !important;
+}
+select{
+    text-transform: capitalize;
+    font-size: 18px;
+    height: 20%;
+    padding: 20px 10vw;
+    border-radius: 5px;
+    border: none; margin: 20px;
+    color: #383838;
+    background: #f5f5f5;!important: ;
+    width: 100%;!important: ;
+
+
+
+}
+.place-order-btn{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    background: #383838;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+option{
+    text-align: center;
 }
