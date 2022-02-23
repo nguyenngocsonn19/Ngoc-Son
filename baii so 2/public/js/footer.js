@@ -21,9 +21,9 @@ const createFooter = () => {
         </ul>
         <ul class="category">
             <li class="category-title">HIGH-END BRANDS</li>
-            <li><a href="" class="footer-links">Chanel</a> </li>
+            <li><a href="" class="footer-links">Gucci</a> </li>
             <br>
-            <li><a href="" class="footer-links">Dior</a> </li>
+            <li><a href="" class="footer-links">Venuco</a> </li>
             <br>
             <li><a href="" class="footer-links">MCM</a> </li>
             <br>
@@ -50,6 +50,8 @@ const createFooter = () => {
         </style>
         <a class="icon" style="color: white" href="#"><i class="fa fa-facebook"></i></a>
             <a href="" class= "social-link">Facebook</a>
+            <a href="https://www.facebook.com/profile.php?id=100078677375117 " class="sprice fb"></a>
+           
           
            <a class="icon" style="color:white;" href="#"><i class="fa fa-instagram"></i></a>
             <a href="" class= "social-link">Instagram</a>
