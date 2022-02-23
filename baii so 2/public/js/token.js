@@ -71,3 +71,13 @@ const  showAlert = (msg) => {
     }, 3000)
 return false;
 }
+const  showSuc= (suc) => {
+    let successBox = document.querySelector('.success-box');
+    let successSuc =document.querySelector('.success-suc');
+   successSuc .innerHTML = suc;
+    successBox.classList.add('show');
+    setTimeout(() =>{
+        successBox.classList.remove('show')
+    }, 3000)
+    return false;
+}

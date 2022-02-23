@@ -39,8 +39,8 @@ const createFooter = () => {
     <p class="info">Telephone - 0123456789-0123456789</p>
     <div class="footer-social-container">
         <div>
-            <a href="" class= "social-link"> Terms and Services</a>
-            <a href="" class= "social-link">Privacy Page</a>
+            <a href="tems.html" class= "social-link"> Terms and Services</a>
+            <a href="tems.html" class= "social-link">Privacy Page</a>
         </div>
         <div>
         <style>

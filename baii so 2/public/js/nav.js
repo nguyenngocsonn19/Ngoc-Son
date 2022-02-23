@@ -19,7 +19,7 @@
             
             </div>
         </a>
-        <a href="cart.html"><img src="img/cart.png" alt=""></a>
+        <a href="cart2.html"><img src="img/cart.png" alt=""></a>
         <a href=""><img src="img/wishlist.png" width="90%" alt=""></a>
     </div>
 </div>

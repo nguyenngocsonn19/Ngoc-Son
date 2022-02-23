@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/cart2.css">
     <link rel="stylesheet" href="css/checkout.css">
     <link rel="icon" href="img/iconlogo.png"  type= "img/x-icon">
 
@@ -22,55 +23,126 @@
 </div>
     <nav class="navbar"></nav>
 
-
+<h1 class="heading">checkout</h1>
 
     <div class="form">
-        <h1 class="heading">checkout</h1>
-        <p class="text">delivery address</p>
-        <input type="text" id="address" placeholder="address">
-        <input type="text" id="number" placeholder="phone number">
-        <input type="text" id="bNumber" placeholder="backup phone number">
-        <input type="text" id="message" placeholder="a message to the seller">
-        <select name="shipping" id="shipping">
-            <option value="1">Chose Shipping unit</option>
-            <option value="2">AAA shipping</option>
-            <option value="3">FSA shipping</option>
-            <option value="4">FEX shipping</option>
-            <option value="5">Fast post</option>
-            <option value="6">FVS shipping</option>
-            <option value="7">ABC Fast</option>
-        </select>
+        <div class="small-container cart-page cart">
+
+        <p class="text"  id="input">delivery address</p>
+            <input type="text" id="address" placeholder="address">
+            <input type="text" id="fullName " placeholder="full name of consignee">
+            <div class="three-input-container">
+            <input type="text" id="number" placeholder="phone number">
+           <input type="text" id="bNumber" placeholder="backup phone number">
+                <input type="text" id="postcode" placeholder="Post code">
+            </div>
+         </div>
     </div>
 
+<div class="">
+    <div class="">
 
-    <div class="cart-section">
-        <div class="product-list">
-            <p class="section-heading">your cart</p>
-            <div class="cart">
+        <div class="small-container cart-page cart">
+            <p class="text">delivery address</p>
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity  </th>
+                    <th>Subtotal  </th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href="product-details.html"><img src="img/p1.webp" width="100px" height="100px"></a>
+                            <div>
+                                <p>Gucci Diana zip around wallet</p>
+                                <small> In Stock</small>
 
+                                <a href="">delete</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$ 795</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href=""><img src="img/p8.jpg" width="100px" height="100px"></a>
+                            <div>
+                                <p>Gucci Diana zip around wallet</p>
+                                <small> In Stock</small>
+
+                                <a  href="">delete</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$ 830</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <a href=""><img src="img/p13.jpg" width="100px" height="100px"></a>
+                            <div>
+                                <p>Gucci Diana zip around wallet</p>
+                                <small> In Stock </small>
+                                <a href="">delete</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$ 1000</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal (3 items):</td>
+                        <td class="section-heading">$ 2625</td>
+                    </tr>
+                    </tr>
+                </table>
             </div>
-        </div>
-        <div class="checkout-section">
-            <div class="checkout-box">
-                <p class="text">your total bill</p>
-                <h1 class="bill">$00</h1>
-                <button class="place-order-btn">place order</button>
-                <button class="place-order-btn" onclick="showAlert('adasdasd')">pasdr</button>
-            </div>
+
         </div>
     </div>
 
+</div>
+<br>
+<div class="form">
+    <div class="small-container cart-page cart card">
+        <p class="text">Add a credit or debit card:</p>
+        <div class="three-input-container">
+            <input type="text" id="cardNumber" placeholder="Card number">
+            <input type="text" id="nameoncard" placeholder="Name on card">
+            Expiration date
+            <input type="date" id="expirationdate" placeholder="Expiration date">
+        </div>
+        <p class="al">Nextag accepts all major credit and debit cards:</p>
+        <img class="img-cart"  src="img/cartvisa.png" width="40%" alt="">
+
+</div>
 
 
+<br>
+<div class="checkout-section-order   ">
+    <div class="checkout-box">
+        <p class="text">Subtotal (3 items):</p>
+        <h2 class="bill"> $2625</h2>
+        <a href="checkout.html"class="place-order-btn">place oder</a>
+    </div>
+</div>
 
-            <script src="js/nav.js"></script>
-            <script src="js/home.js"></script>
-            <script src="js/cart.js"></script>
-             <script src="js/token.js"></script>
-            <script src="js/checkout.js"></script>
+
+<script src="js/nav.js"></script>
+<script src="js/home.js"></script>
+<script src="js/cart.js"></script>
+ <script src="js/token.js"></script>
+<script src="js/checkout.js"></script>
 
 
-
+</div>
 
 </body>
 </html>
