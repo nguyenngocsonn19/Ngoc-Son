@@ -50,9 +50,8 @@ const createFooter = () => {
         </style>
         <a class="icon" style="color: white" href="#"><i class="fa fa-facebook"></i></a>
             <a href="" class= "social-link">Facebook</a>
-            <a href="https://www.facebook.com/profile.php?id=100078677375117 " class="sprice fb"></a>
-           
-          
+ 
+                  
            <a class="icon" style="color:white;" href="#"><i class="fa fa-instagram"></i></a>
             <a href="" class= "social-link">Instagram</a>
             
