@@ -4,6 +4,9 @@
 
 body{
     display: block;
+background: #EAEDED;
+}
+.form{
     padding: 0 10vw;
 }
 .logo{

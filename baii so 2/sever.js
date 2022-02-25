@@ -189,7 +189,7 @@ if(!name.length || !address.length || !about.length || !number.length <10 || !Nu
 
 //add product
 app.get('/add-product', (req,res) =>{
-    res.sendFile(path.join(staticPath,'addProduct.html'))
+    res.sendFile(path.join(staticPath,'addProduct1.html'))
 })
 
 // get the upload

@@ -29,6 +29,11 @@ body{
 .three-input-container input{
     margin: 10px;
 }
+.lal {
+    width: 400px;
+    height: 40px;
+}
+
 
 #state{
     margin: 0 20px !important;
@@ -36,13 +41,13 @@ body{
 select{
     text-transform: capitalize;
     font-size: 18px;
-    height: 20%;
-    padding: 20px 10vw;
+    height:10%;
+    padding: 10px 10vw;
     border-radius: 5px;
-    border: none; margin: 20px;
+    border: none; margin: 15px;
     color: #383838;
     background: #f5f5f5;!important: ;
-    width: 100%;!important: ;
+    width: 50%!important ;
 
 
 
@@ -61,7 +66,23 @@ select{
     line-height: 40px;
     text-transform: capitalize;
     text-decoration: none;
+
 }
 option{
     text-align: center;
+}
+.checkout-section-order{
+   justify-content: left;
+    margin-right: 170px;
+}
+
+.coe{
+    display: flex;
+    margin: 20px;
+}
+.clo{
+    display: block;
+}
+.img-cart{
+    margin-right: 20px;
 }

@@ -20,7 +20,7 @@
             </div>
         </a>
         <a href="cart2.html"><img src="img/cart.png" alt=""></a>
-        <a href=""><img src="img/wishlist.png" width="90%" alt=""></a>
+     
     </div>
 </div>
     <ul class="links-container">
@@ -28,6 +28,7 @@
         <li class="link-item"><a href="search.html" class="link">Products</a></li>
         <li class="link-item"><a href="about.html" class="link">About Us</a></li>
         <li class="link-item"><a href="map.html" class="link">Contact</a></li>
+         <li class="link-item"><a href="feedback.html" class="link">Feedback</a></li>
         <li class="link-item"><a href="login.html" class="link">Login</a></li>
     </ul>
     `;
