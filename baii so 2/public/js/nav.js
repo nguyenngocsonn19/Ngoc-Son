@@ -14,9 +14,10 @@
         <a href="#">
             <img src="img/user.png" id="user-img" alt="">
             <div class="login-logout-popup hide">
-                <p class="account-info" >Login as,name</p>
-                <button class="btn" onclick="location.href='seller-product.html'" >Admin</button>
+                <p class="account-info" >Wellcome, Admin</p>
+                <button class="btn" id="admin" onclick="location.href='seller-product.html'" >My Product</button>
                <button class="btn" id="user-btn" >Log out</button>
+              
             
             </div>
         </a>
