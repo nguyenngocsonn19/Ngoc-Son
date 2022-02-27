@@ -4,7 +4,7 @@
 
     nav.innerHTML = `
     <div class="nav">
-    <img src="img/dark-logo.png" class="brand-logo" alt="">
+    <img src="img/dark-logo.png" onclick="location.href= 'index.html'" class="brand-logo" alt="">
     <div class="nav-items">
         <div class="search">
             <input type="text" class="search-box" placeholder="Search brand, product">
@@ -15,6 +15,7 @@
             <img src="img/user.png" id="user-img" alt="">
             <div class="login-logout-popup hide">
                 <p class="account-info" >Login as,name</p>
+                <button class="btn" onclick="location.href='seller-product.html'" >Admin</button>
                <button class="btn" id="user-btn" >Log out</button>
             
             </div>
