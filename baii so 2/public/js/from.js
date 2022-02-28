@@ -1,17 +1,6 @@
 
 
-/*window.onload =()=>{
-    if(sessionStorage.user){
-        user = JSON.parse(sessionStorage.user);
-        if(compareToken(user.authToken, user.email)){
-            location.replace('/')
-        }
-    }
-}*/
 
-
-
-const  loader = document.querySelector('.loader');
 
 // select input
 const  submitBtn = document.querySelector('.submit-btn');
@@ -39,18 +28,6 @@ submitBtn.addEventListener('click', () =>{
       } else {
 
           location.href="login.html"
-
-          sendData('/signup', {
-              name: name.value,
-              email: email.value,
-              password: password.value,
-              number: number.value,
-              tec: tac.checked,
-              notification: notification.checked,
-              seller: false
-
-
-          })
       }
   }
   else {
@@ -108,15 +85,4 @@ const  showAlert = (msg) => {
         alertBox.classList.remove('show')
     }, 3000)
 
-}
-
-const  showSuc= (suc) => {
-    let successBox = document.querySelector('.success-box');
-    let successSuc =document.querySelector('.success-suc');
-    successSuc .innerHTML = suc;
-    successBox.classList.add('show');
-    setTimeout(() =>{
-        successBox.classList.remove('show')
-    }, 3000)
-    return false;
 }
