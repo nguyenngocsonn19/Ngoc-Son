@@ -8,12 +8,12 @@
 
     <link rel="stylesheet" href="css/signup.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/cart2.css">
     <link rel="stylesheet" href="css/checkout.css">
     <link rel="icon" href="img/iconlogo.png"  type= "img/x-icon">
 
 </head>
+
 <body>
 <img src="img/loader.gif" class="loader" alt="">
 
@@ -21,7 +21,35 @@
     <img src="img/error.png" class="alert-img" alt="">
     <p class="alert-msg">Error Message</p>
 </div>
-    <nav class="navbar"></nav>
+
+
+<div class="nav">
+    <img src="img/dark-logo.png" onclick="location.href= 'index.html'" class="brand-logo" alt="">
+    <div class="nav-items">
+
+        <a href="#">
+            <img src="img/user.png" id="user-img" alt="">
+            <div class="login-logout-popup hide">
+                <p class="account-info" >Wellcome, Admin</p>
+                <button class="btn" id="admin" onclick="location.href='seller-product.html'" >My Product</button>
+                <button class="btn" id="user-btn" >Log out</button>
+
+
+            </div>
+        </a>
+        <a href="cart2.html"><img src="img/cart.png" alt=""></a>
+
+    </div>
+</div>
+<ul class="links-container">
+    <li class="link-item"><a href="index.html" class="link">Home</a></li>
+    <li class="link-item"><a href="search.html" class="link">Products</a></li>
+    <li class="link-item"><a href="about.html" class="link">About Us</a></li>
+    <li class="link-item"><a href="map.html" class="link">Contact</a></li>
+    <li class="link-item"><a href="feedback.html" class="link">Feedback</a></li>
+    <li class="link-item"><a href="login.html" class="link">Login</a></li>
+</ul>
+
 
 <h1 class="heading">checkout</h1>
 
@@ -285,7 +313,8 @@
     <div class="">
 
         <div class="small-container cart-page cart">
-            <p class="text">delivery address</p>
+            <p class="text">Your product</p>
+            <br>
             <table>
                 <tr>
                     <th>Product</th>
@@ -297,15 +326,15 @@
                         <div class="cart-info">
                             <a href="product.html"><img src="img/sp1.jpg" width="100px" height="100px"></a>
                             <div>
-                                <p>Gucci Diana zip around wallet</p>
+                                <p>Leather Printed Wallet</p>
                                 <small> In Stock</small>
 
                                 <a href="">delete</a>
                             </div>
                         </div>
                     </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$ 795</td>
+                    <td>1</td>
+                    <td>$ 600</td>
                 </tr>
                 <tr>
                     <td>
@@ -319,29 +348,31 @@
                             </div>
                         </div>
                     </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$ 830</td>
+                    <td>1</td>
+                    <td>$ 450</td>
                 </tr>
                 <tr>
                     <td>
                         <div class="cart-info">
                             <a href="product2.html"><img src="img/m1.jpg" width="100px" height="100px"></a>
                             <div>
-                                <p>Gucci Diana zip around wallet</p>
+                                <p>MCM Bags Bugs Wallet
+                                </p>
                                 <small> In Stock </small>
                                 <a href="">delete</a>
                             </div>
                         </div>
                     </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$ 1000</td>
+                    <td>1</td>
+                    <td>$ 525</td>
                 </tr>
             </table>
             <div class="total-price">
                 <table>
                     <tr>
-                        <td>Subtotal (3 items):</td>
-                        <td class="section-heading">$ 2625</td>
+
+                        <td>Subtotal (3 items) :</td>
+                        <td class="section-heading">$ 1575</td>
                     </tr>
                     </tr>
                 </table>
@@ -355,16 +386,14 @@
 <div class="form">
 
     <div class="small-container cart-page cart card ">
-        <p class="text">Add a credit or debit card:</p>
-        <div class="coe">
-        <div class="clo lal">
-                <input type="text" id="cardNumber" placeholder="Card number">
-                <input type="text" id="nameoncard" placeholder="Name on card">
-               <p>Expiration date:</p>
-                <input type="date" id="expirationdate" placeholder="Expiration date">
-       </div>
-               <img class="img-cart"  src="img/cardvisa.png" width="40%" alt="">
-        </div>
+        <h2>Delivery method</h2>
+        <p class="text">Payment on delivery<p>
+        <br>
+          <p>-  Household collection fee: $0. Preferential shipping fee (if any) applies to collection fee.</p>
+        <br>
+        <p>- If in Vietnam, the delivery time is from 3 to 6 days, for other countries, it is from 10 to 15 days</p>
+        <br>
+        <p > - Clicking "Place Order" means you agree to abide by the Nextag <a style="color: cornflowerblue;" href="tems.html">Terms  </a></p>
     </div>
 
 <br>
@@ -380,10 +409,14 @@
 
 </div>
 <div class="checkout-section-order ">
-    <div class="checkout-box">
+    <div class="checkout-box2">
+
+        <p>Tax : $ 15</p>
+        <p>Shipping fee : $ 30</p>
         <p class="text">Subtotal (3 items):</p>
-        <h2 class="bill"> $2625</h2>
-        <a href="checkout.html"class="place-order-btn">place oder</a>
+
+        <h2 class="bill"> $ 1620</h2>
+        <a href="thankyou.html"class="place-order-btn">place oder</a>
     </div>
 </div>
 </body>

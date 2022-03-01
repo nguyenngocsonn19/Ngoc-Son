@@ -44,6 +44,14 @@ hr{
     padding: 20px;
     background: #ffffff;
 }
+.checkout-box2{
+    width: 100%;
+    height: 220px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    padding: 20px;
+    background: #ffffff;
+}
 .text{
 text-transform: capitalize;
     font-size: 18px;

@@ -9,7 +9,6 @@
         <div class="search">
             <input type="text" class="search-box" placeholder="Search brand, product">
             <button class="search-btn" >Search</button>
-           
         </div>
         <a href="#">
             <img src="img/user.png" id="user-img" alt="">
